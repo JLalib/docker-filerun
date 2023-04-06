@@ -33,3 +33,4 @@ services:
       - "80:80"
     volumes:
       - /home/sysadmin/docker/filerun/html:/var/www/html
+      - /home/sysadmin/docker/filerun/user-files:/user-files
